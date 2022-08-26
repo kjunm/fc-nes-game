@@ -1,0 +1,32 @@
+{
+  "domainName": "my-fc-game-function.my-fc-game-service.1150164341737799.cn-shanghai.fc.devsapp.net",
+  "accountId": "1150164341737799",
+  "protocol": "HTTP",
+  "certConfig": {
+    "certName": null,
+    "privateKey": null,
+    "certificate": null
+  },
+  "tlsConfig": {
+    "minVersion": null,
+    "maxVersion": null,
+    "cipherSuites": null
+  },
+  "apiVersion": "2016-08-15",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/*",
+        "accountId": null,
+        "serviceName": "my-fc-game-service",
+        "functionName": "my-fc-game-function",
+        "qualifier": null,
+        "methods": [
+          "GET"
+        ]
+      }
+    ]
+  },
+  "createdTime": "2022-08-26T08:17:02Z",
+  "lastModifiedTime": "2022-08-26T15:26:05Z"
+}

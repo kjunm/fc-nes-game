@@ -1,0 +1,9 @@
+{
+  "serviceName": "my-fc-game-service",
+  "functionNames": [
+    "my-fc-game-service/my-fc-game-function"
+  ],
+  "domains": [
+    "my-fc-game-function.my-fc-game-service.1150164341737799.cn-shanghai.fc.devsapp.net"
+  ]
+}

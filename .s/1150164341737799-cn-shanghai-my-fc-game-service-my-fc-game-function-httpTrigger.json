@@ -1,0 +1,22 @@
+{
+  "statefulConfig": {
+    "triggerName": "httpTrigger",
+    "description": "",
+    "triggerId": "883598ee-fe12-414c-8981-816c6cc19a38",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": null,
+    "urlInternet": "https://my-fc-gfunction-my-fc-g-service-sgfihjxmgf.cn-shanghai.fcapp.run",
+    "urlIntranet": "https://my-fc-gfunction-my-fc-g-service-sgfihjxmgf.cn-shanghai-vpc.fcapp.run",
+    "triggerConfig": {
+      "methods": [
+        "GET"
+      ],
+      "authType": "anonymous"
+    },
+    "createdTime": "2022-08-26T08:16:47Z",
+    "lastModifiedTime": "2022-08-26T15:26:04Z",
+    "name": "httpTrigger"
+  }
+}

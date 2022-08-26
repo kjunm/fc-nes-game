@@ -1,0 +1,40 @@
+{
+  "statefulConfig": {
+    "functionId": "810b7810-06ee-4692-b171-952504ce9ba3",
+    "functionName": "my-fc-game-function",
+    "description": "this is a fc game",
+    "runtime": "python3",
+    "handler": "index.app",
+    "timeout": 60,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 307697,
+    "codeChecksum": "7462434643312647904",
+    "memorySize": 128,
+    "gpuMemorySize": null,
+    "environmentVariables": {
+      "game": "fighter_f8000"
+    },
+    "createdTime": "2022-08-26T08:16:47Z",
+    "lastModifiedTime": "2022-08-26T15:26:04Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": null,
+    "instanceType": "e1",
+    "layers": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": null,
+    "name": "my-fc-game-function"
+  }
+}
