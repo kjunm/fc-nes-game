@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import bottle
-
+# asdasdsadasdd
 def getFile(n):
     with open(os.path.join('src', n), 'rb') as f:
         resultData = f.read()
