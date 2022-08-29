@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo $(pwd)
 curl -o- -L http://cli.so/install.sh | bash
